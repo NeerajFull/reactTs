@@ -12,7 +12,8 @@ module.exports = {
     devServer: {
         static: {
             directory: path.resolve(__dirname, './dist')
-        }
+        },
+        port: 3000
     },
     module: {
         rules: [
